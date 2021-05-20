@@ -19,4 +19,4 @@ quasar build
 ```
 
 ### WeatherApp
-Search the weather of the different cities of the world 
+Search the weather of the different cities of the world
