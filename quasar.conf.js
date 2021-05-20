@@ -65,7 +65,8 @@ module.exports = function (ctx) {
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       scopeHoisting: true,
-      // vueRouterMode: 'history',
+      vueRouterMode: process.env.CORDOVA_PLATFORM ? "hash" : "history",
+      publicPath: '/WeatherApp',
       // showProgress: false,
       // gzip: true,
       // analyze: true,

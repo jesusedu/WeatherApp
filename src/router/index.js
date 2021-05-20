@@ -8,10 +8,6 @@ Vue.use(Router);
 
 const router = new Router({
   mode: process.env.CORDOVA_PLATFORM ? "hash" : "history",
-  base:
-    store.state.nameProductivo == null
-      ? process.env.BASE_URL
-      : store.state.nameProductivo,
   routes: [
     {
       path: '/',
