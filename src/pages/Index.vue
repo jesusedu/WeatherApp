@@ -128,8 +128,9 @@ export default {
         background: linear-gradient(to bottom, #00b4db, #0083b0)
 .degree
     top: -44px
+
 .skyline
-    flex: 0 0 200px
+    flex: 0 0 110px
     background: url(../statics/img/skyline.png)
     background-size: contain
     background-position: center bottom
